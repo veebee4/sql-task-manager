@@ -13,8 +13,6 @@ class Category(db.Model):
         return self.category_name
 
 
-
-
 class Task(db.Model):
     # schema for the Task model
     id = db.Column(db.Integer, primary_key=True) # column variable, auto increments
